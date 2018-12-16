@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>360° Image Browser</title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+ 
+  </head>  
+  <body>
+    <a-scene>
+      <a-assets>
+ 
+          <!-- Images. -->
+          <img id="city" crossorigin="anonymous" src="https://res.cloudinary.com/dougsillars/image/upload/w_1000/v1539858282/city_ii5vuy.webp">
+          <img id="cubes" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg">
+          <img id="sechelt" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
+          <img id="stonehenge" crossorigin="anonymous" src="https://res.cloudinary.com/dougsillars/image/upload/w_512,h_256/v1539447662/Stonehenge_vaeqqm.png">
+          <img id="prague" crossorigin="anonymous" src="https://res.cloudinary.com/dougsillars/image/upload/c_crop,w_1024,h_256/v1539862969/Prague_Getty-1200x400_og08my.jpg">
+          <img id="groundTexture" crossorigin="anonymous" src="https://res.cloudinary.com/dougsillars/image/upload/q_auto,f_auto,w_64,h_64/v1539417303/IMG_20180717_164205_od0awf.jpg">
+          <img id="castle" crossorigin="anonymous" src="https://res.cloudinary.com/dougsillars/image/upload/q_auto,f_auto,w_2500/v1539420595/IMG_20180306_132628_agj94d.jpg">
+        
+      </a-assets>
+      
+      <a-plane position="0 -.5 -5" color="red" repeat="10 10" rotation="-90 0 0" width="10" height="10"  ></a-plane>
+    
+     
+     <a-plane  position="0 .75 -8"  rotation= "0 0 0" width="10" height="2.5" material="src:#castle; roughness: 1; repeat: 1; side: double" ></a-plane>
+     
+     
+       360-degree image. 
+      <a-sky color="blue" ></a-sky>
+
+          
+
+      <!-- Image links. 
+        <a-plane text="value:_    512;" material="src:#stonehenge; roughness: 1; repeat: 1; side: double" position="0 1.5 -5"  rotation= "0 0 0" width="10" height="2.5" ></a-plane>
+    
+      -->
+ 
+      
+ 
+
+    </a-scene>
+  </body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>360° Image Browser</title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+ 
+  </head>  
+  <body>
+    <a-scene>
+      <a-assets>
+ 		
+ 			 <a-asset-item id="animatedboxopt" src="AnimatedCube/glTF/AnimatedCubeOpt.gltf"></a-asset-item>
+      </a-assets>
+      
+     	
+     		<a-entity position="2 .75 -2" rotation="45 45 45" gltf-model="#animatedboxopt"></a-entity>
+     
+       360-degree image. 
+      <a-sky color="blue" ></a-sky>
+
+        
+ 
+
+    </a-scene>
+  </body>
+
+</html>

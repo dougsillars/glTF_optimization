@@ -1,0 +1,338 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 13856,
+      "max": [
+        3.6241109371185303,
+        5.0468640327453613,
+        5.7082839012145996
+      ],
+      "min": [
+        -2.4210278987884521,
+        0.31335899233818054,
+        -1.1010309457778931
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 166272,
+      "componentType": 5126,
+      "count": 13856,
+      "max": [
+        0.99992126226425171,
+        0.99989998340606689,
+        0.99979466199874878
+      ],
+      "min": [
+        -0.99991023540496826,
+        -0.99999988079071045,
+        -0.99937248229980469
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 13856,
+      "max": [
+        0.99989992380142212,
+        0.99996209144592285,
+        0.9999396800994873,
+        1
+      ],
+      "min": [
+        -0.99997866153717041,
+        -0.99979919195175171,
+        -0.99996846914291382,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 13856,
+      "max": [
+        0.99902302026748657,
+        0.99919897317886353
+      ],
+      "min": [
+        0.0010920000495389104,
+        0.00097699998877942562
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 70056,
+      "max": [
+        13855
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Taiga (https://sketchfab.com/KoonTaiga)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/6b95bca828184242a7746a902a5e6a48",
+      "title": "Astellia Dragon"
+    },
+    "generator": "Sketchfab-3.50.4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 280224,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 110848,
+      "byteOffset": 280224,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 332544,
+      "byteOffset": 391072,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 221696,
+      "byteOffset": 723616,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 945312,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Model001_Material001__Mon_Dragon_01_A_T_DI_png_emissive.png"
+    },
+    {
+      "uri": "textures/Model001_Material001__Mon_Dragon_01_A_T_DI_png_occlusion.png"
+    },
+    {
+      "uri": "textures/Model001_Material001__Mon_Dragon_01_A_T_DI_png_normal.png"
+    },
+    {
+      "uri": "textures/Model001_Material001__Mon_Dragon_01_A_T_DI_png_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/Model001_Material001__Mon_Dragon_01_A_T_DI_png_diffuse.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 4,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0.34584603660000002,
+          "specularFactor": [
+            0.26391006099999997,
+            0.26391006099999997,
+            0.26391006099999997
+          ],
+          "specularGlossinessTexture": {
+            "index": 3,
+            "texCoord": 0
+          }
+        }
+      },
+      "name": "Model001_Material001__Mon_Dragon_01_A_T_DI_png",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 0.31269054880000002,
+        "texCoord": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Model001_38_Mon_0_3_1_0_Model001_Material001__Mon_Dragon_01_A_T_DI_png_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "astellia dragon.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.99999999999998668,
+        1.6292068494972794e-07,
+        0,
+        0,
+        -1.6292068494972794e-07,
+        0.99999999999998668,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Model001_38_Mon_0_3_1_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Model001_38_Mon_0_3_1_0_Model001_Material001__Mon_Dragon_01_A_T_DI_png_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ]
+}
+
